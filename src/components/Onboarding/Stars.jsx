@@ -7,15 +7,25 @@ export const Stars = () => {
   const numberOfStars = 10;
 
   const stars = [];
-  // for (let i = 0; i < numberOfStars; i++) {
-  //   Math.floor(Math.random() * max);
-  // }
+  for (let i = 0; i < numberOfStars; i++) {
+    const x = Math.floor(Math.random() * width);
+    const y = Math.floor(Math.random() * height);
+    stars.push({ x, y });
+  }
 
   return (
-    <div>
-      <h2>Width: {width}</h2>
-
-      <h2>Height: {height}</h2>
+    <div className="w-screen h-screen absolute">
+      {stars.map((star, index) => (
+        <div
+          key={index}
+          className="absolute w-2 h-2"
+          style={{
+            backgroundImage: `url(${starImage})`,
+            left: `${star.x}px`,
+            top: `${star.y}px`,
+          }}
+        ></div>
+      ))}
     </div>
   );
 };

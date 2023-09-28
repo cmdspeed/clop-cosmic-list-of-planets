@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { Planet } from "./Planets.jsx";
 import { Stars } from "./Stars.jsx";
+import { FallingStars } from "./fallingStar.jsx";
 
 export const Onboarding = () => {
   return (
     <>
+      <FallingStars />
       <section className="max-w-7xl pt-20 mx-auto">
         <div className="px-6">
           <h1 className="text-5xl font-bold">Explore the Universe</h1>
@@ -20,7 +22,9 @@ export const Onboarding = () => {
             </NavLink>
           </div>
         </div>
+
         <Stars />
+
         <Planet />
       </section>
     </>
