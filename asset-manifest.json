@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clop-cosmic-list-of-planets/static/css/main.4ddfa43f.css",
-    "main.js": "/clop-cosmic-list-of-planets/static/js/main.7fd4a63c.js",
+    "main.css": "/clop-cosmic-list-of-planets/static/css/main.e5542df1.css",
+    "main.js": "/clop-cosmic-list-of-planets/static/js/main.3a448651.js",
     "static/js/787.bdf99775.chunk.js": "/clop-cosmic-list-of-planets/static/js/787.bdf99775.chunk.js",
     "static/media/mars.png": "/clop-cosmic-list-of-planets/static/media/mars.284f95f1d3173265b550.png",
     "static/media/earth.png": "/clop-cosmic-list-of-planets/static/media/earth.6770714a4ddd119781b2.png",
@@ -9,12 +9,12 @@
     "static/media/venus.png": "/clop-cosmic-list-of-planets/static/media/venus.34e41da85d1b00764c21.png",
     "static/media/uranus2.png": "/clop-cosmic-list-of-planets/static/media/uranus2.d4ebd88608a2d8bfd15d.png",
     "index.html": "/clop-cosmic-list-of-planets/index.html",
-    "main.4ddfa43f.css.map": "/clop-cosmic-list-of-planets/static/css/main.4ddfa43f.css.map",
-    "main.7fd4a63c.js.map": "/clop-cosmic-list-of-planets/static/js/main.7fd4a63c.js.map",
+    "main.e5542df1.css.map": "/clop-cosmic-list-of-planets/static/css/main.e5542df1.css.map",
+    "main.3a448651.js.map": "/clop-cosmic-list-of-planets/static/js/main.3a448651.js.map",
     "787.bdf99775.chunk.js.map": "/clop-cosmic-list-of-planets/static/js/787.bdf99775.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ddfa43f.css",
-    "static/js/main.7fd4a63c.js"
+    "static/css/main.e5542df1.css",
+    "static/js/main.3a448651.js"
   ]
 }
