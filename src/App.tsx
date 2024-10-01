@@ -3,17 +3,15 @@ import { Onboarding } from "./components/Onboarding/Onboarding";
 
 import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
-import { Planet } from "./components/Planets/planet";
+import { Planet } from "./components/Planets/planet.jsx";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Onboarding />}></Route>
-        <Route path="/planet" element={<Planet />}></Route>
-        <Route path="*" element={<Navigate to="/" />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Onboarding />}></Route>
+      <Route path="/planet" element={<Planet />}></Route>
+      <Route path="*" element={<Navigate to="/" />} />
+    </Routes>
   );
 }
 
